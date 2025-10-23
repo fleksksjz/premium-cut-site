@@ -3,10 +3,8 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // 👇 ADICIONE ESSA LINHA AQUI
-  base: "https://fleksksjz.github.io/barbearias/", // Substitua pelo nome do seu repositório
+  base: "/barbearias/",
 
   server: {
     host: "::",
