@@ -5,6 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // 👇 ADICIONE ESSA LINHA AQUI
+  base: "https://fleksksjz.github.io/barbearias/", // Substitua pelo nome do seu repositório
+
   server: {
     host: "::",
     port: 8080,
